@@ -29,18 +29,97 @@
         <button>Book an Appointment.</button>
       </div>
     </section>
+    <!--About Us Section-->
     <section class="about-us">
-      <h2>About Us</h2>
-      <p>At Wema Hospital, we are dedicated to providing compassionate care and advanced medical services for our community. With experienced doctors, modern facilities, and a patient-first approach, we strive to make healthcare accessible, reliable, and comforting for every family.</p>
+      <img src="images/about-img.jpg" alt="about-img" class="about-img">
       <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <h2>About Us</h2>
+        <p>At Wema Hospital, we are dedicated to providing compassionate care and advanced medical services for our community. With experienced doctors, modern facilities, and a patient-first approach, we strive to make healthcare accessible, reliable, and comforting for every family.</p>         
+        <div class="about-contents">
+          <p>🩺Experienced doctors and nurses across multiple specialties</p>
+          <p>🏥Modern facilities with state-of-the-art technology</p>
+          <p>💙Patient-centered care for families and individuals</p>
+          <p>🌍Accessible and affordable healthcare for everyone</p>   
+        </div>  
       </div>
     </section>
+    <!--Our Serivies-->
+    <section class="our-services">
+      <h2>Our Serives</h2>
+      <h4>We provide a wide range of healthcare services designed to meet the needs of every patient. Whether it’s preventive care, emergency support, or specialized treatment, our team is here to ensure your health and well-being.</h4>
+      <div class="services-div">
+         <div class="service-card">
+          <img src="images/kidneys.jpeg" alt="kidneys">
+          <p>Nephrologist</p>
+          <button>More details</button>
+         </div>
+         <div class="service-card">
+          <img src="images/lungs.jpeg" alt="lungs">
+          <p>Pulmonologist</p>
+          <button>More details</button>
+         </div>         
+         <div class="service-card">
+          <img src="images/heart.jpeg" alt="heart">
+          <p>Cardiologist</p>
+          <button>More details</button>
+         </div>         
+         <div class="service-card">
+          <img src="images//dentist.jpeg" alt="dentist">
+          <p>Dentist</p>
+          <button>More details</button>
+         </div>     
+      </div>
+    </section>
+    <!--Contact Us-->
+    <section class="contacts">
+      <h2>Book an Appointment</h2>
+      <h4>Your health matters to us. Schedule an appointment today and let our doctors provide the care you need.</h4>
+      <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter name">
+        <span id="nameError" class="error"></span><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email">
+        <span id="emailError" class="error"></span><br>
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" placeholder="Enter your prefered date">
+        <span id="dateError" class="error"></span><br>
+
+         <label for="department">Department</label>
+         <select id="department" name="department" required>
+          <option value="">-- Select Department --</option>
+          <option>Pulmonology</option>
+          <option>Nephrology</option>
+          <option>Cardiology</option>
+          <option>Dentistry</option>
+         </select>
+         <span id="departmentError" class="error"></span><br>
+         
+         <label for="message">Message</label>
+         <textarea name="message" id ='message' placeholder="Additional Information (optional)"></textarea>
+         <span id="messageError" class="error"></span><br>
+        
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
   </main>
-  <footer></footer>
+
+  <!--Footer-->
+  <footer>
+    <div class="contact-info">
+      📍 Address: National Highway, Naga Street. <br>
+      📞 Phone: +254 7653 126 089 <br>
+      📧 Email: wemahospital@gmail.com 
+    </div>
+    <div class="working-hours">
+      <span class="opening-hours">Opening hours:</span> <br>
+      Mon-Fri: 8:00 AM - 5:00 PM <br>
+      Emergency: 24/7
+    </div>  
+    &copy; 2025 Wema Hospital. All Rights Reserved.
+  </footer>
 
   <script src="scripts/main.js"></script>
 </body>
