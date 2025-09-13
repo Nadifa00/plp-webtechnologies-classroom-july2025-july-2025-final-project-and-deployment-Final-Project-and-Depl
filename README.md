@@ -35,8 +35,7 @@ Wema-Hospital/
 ---
 
 ## 🌍 Live URL
-👉 [View Wema Hospital Website](https://your-live-url-here.com)  
-*(replace with your actual GitHub Pages / Netlify / Vercel link once deployed)*
+👉 [View Wema Hospital Website](https://wemahospital.netlify.app/)
 
 ---
 
@@ -60,5 +59,5 @@ Wema-Hospital/
    cd wema-hospital
 4. Open index.html in your browser.
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License – you are free to use, modify, and distribute it, but attribution is appreciated.
